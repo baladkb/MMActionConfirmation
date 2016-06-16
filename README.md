@@ -65,8 +65,8 @@ Implementing the MMActionConfirmationCantOpenURLDelegateForMode in your class in
 
 }
 ```
-#![Screenshot](https://raw.github.com/mavris/MMActionConfirmation/master/screenshot1.png)
-![Screenshot](https://raw.github.com/mavris/MMActionConfirmation/master/screenshot2.png) ![Screenshot](https://raw.github.com/mavris/MMActionConfirmation/master/screenshot3.png) ![Screenshot](https://raw.github.com/mavris/MMActionConfirmation/master/screenshot4.png)#
+![Screenshot](https://raw.github.com/mavris/MMActionConfirmation/master/screenshot1.png)
+![Screenshot](https://raw.github.com/mavris/MMActionConfirmation/master/screenshot2.png) ![Screenshot](https://raw.github.com/mavris/MMActionConfirmation/master/screenshot3.png) ![Screenshot](https://raw.github.com/mavris/MMActionConfirmation/master/screenshot4.png)
 
 That's it!
 
