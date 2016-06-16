@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xFv-xc-rJw">
+                                <rect key="frame" x="260" y="225" width="80" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="787-ML-bRx"/>
+                                    <constraint firstAttribute="width" constant="80" id="lbm-fr-I9Q"/>
+                                </constraints>
+                                <state key="normal" title="Facebook"/>
+                                <connections>
+                                    <action selector="opnFacebookAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KPW-lp-80p"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DCO-cZ-49r">
+                                <rect key="frame" x="260" y="263" width="80" height="30"/>
+                                <state key="normal" title="Call"/>
+                                <connections>
+                                    <action selector="callAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zfb-Xd-WXp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CPH-0G-CXe">
+                                <rect key="frame" x="260" y="339" width="80" height="30"/>
+                                <state key="normal" title="Website"/>
+                                <connections>
+                                    <action selector="websiteAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T2X-OA-9p2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rT1-Ev-he4">
+                                <rect key="frame" x="260" y="301" width="80" height="30"/>
+                                <state key="normal" title="Mail"/>
+                                <connections>
+                                    <action selector="mailAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="48A-9R-LFe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CPH-0G-CXe" firstAttribute="top" secondItem="rT1-Ev-he4" secondAttribute="bottom" constant="8" id="7ev-Ii-aEQ"/>
+                            <constraint firstItem="CPH-0G-CXe" firstAttribute="height" secondItem="rT1-Ev-he4" secondAttribute="height" id="929-JB-XI0"/>
+                            <constraint firstItem="rT1-Ev-he4" firstAttribute="width" secondItem="DCO-cZ-49r" secondAttribute="width" id="9hP-Yu-iLt"/>
+                            <constraint firstItem="rT1-Ev-he4" firstAttribute="centerX" secondItem="DCO-cZ-49r" secondAttribute="centerX" id="CYa-aP-Uoh"/>
+                            <constraint firstItem="rT1-Ev-he4" firstAttribute="top" secondItem="DCO-cZ-49r" secondAttribute="bottom" constant="8" id="Hef-c4-aEF"/>
+                            <constraint firstItem="rT1-Ev-he4" firstAttribute="height" secondItem="DCO-cZ-49r" secondAttribute="height" id="OWW-6r-0zr"/>
+                            <constraint firstItem="CPH-0G-CXe" firstAttribute="width" secondItem="rT1-Ev-he4" secondAttribute="width" id="Oei-Vk-4Id"/>
+                            <constraint firstItem="DCO-cZ-49r" firstAttribute="width" secondItem="xFv-xc-rJw" secondAttribute="width" id="Pvr-vc-YEY"/>
+                            <constraint firstItem="DCO-cZ-49r" firstAttribute="top" secondItem="xFv-xc-rJw" secondAttribute="bottom" constant="8" id="QI2-BZ-J13"/>
+                            <constraint firstItem="DCO-cZ-49r" firstAttribute="height" secondItem="xFv-xc-rJw" secondAttribute="height" id="gWm-vU-ZOy"/>
+                            <constraint firstItem="xFv-xc-rJw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.8" id="iKw-QD-sua"/>
+                            <constraint firstItem="CPH-0G-CXe" firstAttribute="centerX" secondItem="rT1-Ev-he4" secondAttribute="centerX" id="l7j-cG-78c"/>
+                            <constraint firstItem="DCO-cZ-49r" firstAttribute="centerX" secondItem="xFv-xc-rJw" secondAttribute="centerX" id="nPJ-5x-SEZ"/>
+                            <constraint firstItem="xFv-xc-rJw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zEV-qE-92n"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
