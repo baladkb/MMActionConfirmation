@@ -2,10 +2,11 @@
 MMActionConfirmation
 ======
 
-MMActionConfirmation is class that helps you to "ask the user if he/she realy wants to leave the app" in cases like visiting a website, calling a telephone number etc.
+A class that ask the user to confirm before leaving the application to open a URL (tel:,mailto: etc)
 
 ###Features
 
++ It's behave like UIAlertView so it can be called from any controller.
 + Using the same flat design as Apple's native controller
 + Customizable
 + Compatbile with all iOS Devices
