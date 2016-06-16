@@ -70,7 +70,7 @@ Implementing the MMActionConfirmationCantOpenURLDelegateForMode in your class in
 
 That's it!
 
-If you don't need to handle in case that URL cant be opene just enter "nil" as delegate paramater.
+If you don't need to handle the case where the URL can't be opened just enter "nil" as delegate paramater.
 
 ###Authors
 
