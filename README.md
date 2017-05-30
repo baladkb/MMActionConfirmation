@@ -4,7 +4,7 @@ MMActionConfirmation
 
 A class that ask the user to confirm before leaving the application to open a URL (tel:,mailto: etc)
 
-###Features
+### Features
 
 + It's behave like UIAlertView so it can be called from any controller.
 + Using the same flat design as Apple's native controller
@@ -12,11 +12,11 @@ A class that ask the user to confirm before leaving the application to open a UR
 + Compatbile with all iOS Devices
 + Easy to use
 
-###Configuration
+### Configuration
 
 + Add files in your Xcode project from: File-Add Files to YourProjectName-> Select MMActionConfirmation.m, MMActionConfirmation.h and Enum.h -> Click on "copy items if needed" -> OK
 
-###How to use it
+### How to use it
 
 Import the following classes in your class:
 
@@ -72,11 +72,11 @@ That's it!
 
 If you don't need to handle the case where the URL can't be opened just enter "nil" as delegate paramater.
 
-###Authors
+### Authors
 
 * Michael Mavris
 
-###License
+### License
 
 Copyright Miksoft 2016
 
